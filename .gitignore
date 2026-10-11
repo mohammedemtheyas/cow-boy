@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.DS_Store
+server/prisma/dev.db
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Environment files
+.env
+.env.*
+
+# Local database
+server/prisma/dev.db
+
+# OS files
+.DS_Store
