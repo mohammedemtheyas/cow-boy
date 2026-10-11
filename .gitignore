@@ -1,8 +1,3 @@
-node_modules/
-dist/
-.env
-.DS_Store
-server/prisma/dev.db
 # Dependencies
 node_modules/
 **/node_modules/
@@ -17,6 +12,16 @@ dist/
 
 # Local database
 server/prisma/dev.db
+*.db
+*.db-journal
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
 
 # OS files
 .DS_Store
+Thumbs.db
